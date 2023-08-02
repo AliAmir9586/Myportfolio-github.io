@@ -1,0 +1,137 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+    
+}
+body{
+    background: url(https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmFja2dyb3VuZCUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60)no-repeat center center /cover;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3px;
+    
+}
+#title h1{
+    font-size: 50px;
+    margin: 15px;
+    padding: 15px;
+    color: antiquewhite;
+}
+.pic2 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+ h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+color: white;
+
+}
+img{
+        width: 13%;
+        height: 200px;
+        border-radius: 116px;
+        transition: all 0.5s ease-in-out;
+       
+}
+.pic2 :hover {
+    transform: scale(2);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 2px solid white; 
+margin: auto;
+flex-wrap: wrap;
+
+}
+.boxcontainer{
+    height: 888px;
+}
+.container #web{
+    border: 5px solid white;
+padding: 15px;
+margin: 20px;
+
+color:greenyellow;
+font-size: 20px;
+border-radius: 15px;
+
+}
+ table #web{
+    width: 500px;
+ }
+.container  #Pro{
+    border: 5px solid white;
+padding: 15px;
+margin: 20px;
+color:greenyellow;
+font-size: 20px;
+border-radius: 15px;
+
+}
+.container  #others{
+    border: 5px solid white;
+padding: 15px;
+margin: 20px;
+color:greenyellow;
+font-size: 20px;
+border-radius: 10px;
+
+}
+table tr th{
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+}
+table tr td{
+    padding: 5px;
+    
+}
+@media (max-width:1326px) and (min-width:725px){
+    .pic2 img{
+        height: 138px;
+        width: 153px;
+        
+    }
+   
+    .container #web{
+        width: 417px;
+        height: 239px;
+        font-size: 15px;
+    }
+    .container #Pro{
+        width: 349px;
+        height: 170px;
+        font-size: 15px;
+    }
+    .container #others{
+        width: 294px;
+        height: 150px;
+        font-size: 15px;
+    }
+    table tr th{
+        font-size: 26px;
+        border: none;
+        padding: 7px;
+        color: aliceblue;
+    }
+    table tr td{
+        padding: 2px;
+        
+    }
+    
+}
